@@ -4,14 +4,29 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: rgb(16, 16, 46);      
 }
+
+section {
+    background-image: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    section {
+      background-image: linear-gradient(to right, #ff7e5f, #feb47b); 
+    }
+  }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #8186b1;
+    opacity: 0.85;
 }
 
 @media screen and (min-width: 992px) {
